@@ -40,5 +40,12 @@ namespace GoldPriceAPI.Controllers
         {
             return "Hong Kong";
         }
+        [HttpGet]
+        [Route("Sum/{a}/{b}")]
+        public int Sum(int a, int b) 
+        {
+            return a + b;
+        }        
     }
 }
+

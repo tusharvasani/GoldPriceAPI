@@ -16,5 +16,10 @@ namespace GoldPriceAPI.Test
         {
             Assert.AreEqual(myCtl.Get(10), "Hong Kong");
         }
+        [Test]
+        public void SumOf10and20Returns30()
+        {
+            Assert.AreEqual(myCtl.Sum(10,20), 30);
+        }
     }
 }
