@@ -14,7 +14,7 @@ namespace GoldPriceAPI.Test
         [Test]
         public void CheckIDReturnsHongKong()
         {
-            Assert.AreEqual(myCtl.Get(1), "Hong Kong");
+            Assert.AreEqual(myCtl.Get(1), "Hong Kongg");
         }
     }
 }
