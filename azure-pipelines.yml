@@ -22,10 +22,10 @@ steps:
     restoreSolution: '$(solution)'
 
 - task: DotNetCoreCLI@2
-  displayName: GoldPriceAPITest
+  displayName: Test
   inputs:
     command: test
-    projects: '*test/GoldPriceAPI.Test/*.csproj'
+    projects: 'test/GoldPriceAPI.Test/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
 
 - task: VSBuild@1
