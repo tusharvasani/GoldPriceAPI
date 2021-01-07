@@ -25,7 +25,7 @@ steps:
   displayName: Test
   inputs:
     command: test
-    projects: 'test/GoldPriceAPI.Test/*.csproj'
+    projects: '**/*Test/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
 
 - task: VSBuild@1
