@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using GoldPriceAPI.FixerCurrAPI;
+using Newtonsoft.Json;
 
 namespace GoldPriceAPI
 {
@@ -46,6 +48,30 @@ namespace GoldPriceAPI
             {
                 endpoints.MapControllers();
             });
+        }
+
+        public static void GetCurrencyRate()
+        {
+            RequestParam paramList = new RequestParam();
+            paramList.AccessKey = Common.CurrencyRateKey;
+            paramList.FromSymbol=  "HKD";
+            paramList.ToSymbol = "INR";
+            paramList.Amount = 1;
+            paramList.DateVal = DateTime.Now;
+            
+            string jsonData = JsonConvert.SerializeObject(paramList);
+            try
+            {
+                Response objReponse = FixerCurrencyController.CallApi(Common.FixerAPIURL, "convert", jsonData);
+                if(objReponse != null)
+                {
+
+                }
+            }
+            catch(Exception ex)
+            {
+             
+            }
         }
     }
 }

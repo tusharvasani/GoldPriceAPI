@@ -14,6 +14,7 @@ namespace GoldPriceAPI
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            Startup.GetCurrencyRate();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
