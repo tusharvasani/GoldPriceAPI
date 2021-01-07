@@ -38,8 +38,10 @@ namespace GoldPriceAPI.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "Hong Kong";
+            return "Jackkassss";
         }
+
+
         [HttpGet]
         [Route("Sum/{a}/{b}")]
         public int Sum(int a, int b) 
