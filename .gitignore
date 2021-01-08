@@ -1,0 +1,7 @@
+
+*.pdb
+test/GoldPriceAPI.Test/bin/Debug/netcoreapp3.1/GoldPriceAPI.dll
+*.cache
+.vs/GoldPriceAPI/DesignTimeBuild/.dtbcache
+*.cache
+*.cache

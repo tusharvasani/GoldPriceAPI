@@ -1,0 +1,4 @@
+D:\Projects\GoldPriceAPISln\test\GoldPriceAPI.Test\obj\Debug\netcoreapp2.1\GoldPriceAPI.Test.csprojAssemblyReference.cache
+D:\Projects\GoldPriceAPISln\test\GoldPriceAPI.Test\obj\Debug\netcoreapp2.1\GoldPriceAPI.Test.csproj.CoreCompileInputs.cache
+D:\Projects\GoldPriceAPISln\test\GoldPriceAPI.Test\obj\Debug\netcoreapp2.1\GoldPriceAPI.Test.AssemblyInfoInputs.cache
+D:\Projects\GoldPriceAPISln\test\GoldPriceAPI.Test\obj\Debug\netcoreapp2.1\GoldPriceAPI.Test.AssemblyInfo.cs

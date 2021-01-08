@@ -30,3 +30,7 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+
+*.pdb
+test/GoldPriceAPI.Test/bin/Debug/netcoreapp3.1/GoldPriceAPI.dll
+*.cache
